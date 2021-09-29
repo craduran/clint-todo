@@ -1,0 +1,101 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.categories {
+  padding: 0px;
+}
+
+.todos {
+  padding: 12px;
+}
+
+.todos li {
+  list-style: none;
+}
+
+.categories li{
+  list-style: none;
+  display: inline-block;
+}
+
+.categories li a {
+  border: 1px solid;
+  text-decoration: none;
+  padding:30px;
+  display:block;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.business .progress-bar{
+  background-color:#b734eb !important;
+}
+.personal .progress-bar{
+  background-color:#34a4eb !important;
+}
+
+.business .form-check-input:checked {
+  background-color:#b734eb !important;
+  border-color: #b734eb !important;
+}
+
+.personal .form-check-input:checked {
+  background-color: #34a4eb !important;
+  border-color: #34a4eb !important;
+}
+
+.main-body {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.full-body {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+.button-link {
+  border: none;
+  background: none;
+  opacity: 0.7;
+  font-size: 0.8rem;
+}
+
+.button-link:hover {
+  opacity: 1;
+}
+
+.action {
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 4px;
+}
+
+.react-datepicker__input-container input{
+  border: 1px solid #ced4da;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.react-datepicker-ignore-onclickoutside {
+  border: 1px solid #ced4da;
+  outline: none;
+}
